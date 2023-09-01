@@ -18,7 +18,7 @@ def md5_Crack():
         # Mendapatkan direktori skrip saat ini
         current_directory = os.path.dirname(os.path.abspath(__file__))
         # Path absolut ke file wordlist
-        fileWordList = os.path.join(current_directory,"wordlist_password.txt")
+        fileWordList = os.path.join(current_directory,"Wordlist_50K.txt")
 
         _Input_md5Hash = input((("""
 ┌──[𝙯HaEN✘]-[MASUKKAN NILAI HASH]
@@ -78,7 +78,7 @@ def sha1_Crack():
         tgl_sekarang = waktu_sekarang.strftime('%d-%m-%Y / ')
         counter = 1
         current_directory = os.path.dirname(os.path.abspath(__file__))
-        fileWordList = os.path.join(current_directory,"wordlist_password.txt")
+        fileWordList = os.path.join(current_directory,"Wordlist_50K.txt")
         _Input_sha1Hash = input((("""
 ┌──[𝙯HaEN✘]-[MASUKKAN NILAI HASH]
 └─➣  """)))
@@ -135,7 +135,7 @@ def sha224_Crack():
         tgl_sekarang = waktu_sekarang.strftime('%d-%m-%Y / ')
         counter = 1        
         current_directory = os.path.dirname(os.path.abspath(__file__))
-        fileWordList = os.path.join(current_directory,"wordlist_password.txt")
+        fileWordList = os.path.join(current_directory,"Wordlist_50K.txt")
         _Input_sha224Hash = input((("""
 ┌──[𝙯HaEN✘]-[MASUKKAN NILAI HASH]
 └─➣  """)))
@@ -191,7 +191,7 @@ def sha256_Crack():
         tgl_sekarang = waktu_sekarang.strftime('%d-%m-%Y / ')
         counter = 1
         current_directory = os.path.dirname(os.path.abspath(__file__))
-        fileWordList = os.path.join(current_directory,"wordlist_password.txt")
+        fileWordList = os.path.join(current_directory,"Wordlist_50K.txt")
         _Input_sha256Hash = input((("""
 ┌──[𝙯HaEN✘]-[MASUKKAN NILAI HASH]
 └─➣  """)))
@@ -248,7 +248,7 @@ def sha384_Crack():
         tgl_sekarang = waktu_sekarang.strftime('%d-%m-%Y / ')
         counter = 1
         current_directory = os.path.dirname(os.path.abspath(__file__))
-        fileWordList = os.path.join(current_directory,"wordlist_password.txt")
+        fileWordList = os.path.join(current_directory,"Wordlist_50K.txt")
         _Input_sha384Hash = input((("""
 ┌──[𝙯HaEN✘]-[MASUKKAN NILAI HASH]
 └─➣  """)))
@@ -305,7 +305,7 @@ def sha512_Crack():
         tgl_sekarang = waktu_sekarang.strftime('%d-%m-%Y / ')
         counter = 1
         current_directory = os.path.dirname(os.path.abspath(__file__))
-        fileWordList = os.path.join(current_directory,"wordlist_password.txt")
+        fileWordList = os.path.join(current_directory,"Wordlist_50K.txt")
         _Input_sha512Hash = input((("""
 ┌──[𝙯HaEN✘]-[MASUKKAN NILAI HASH]
 └─➣  """)))
